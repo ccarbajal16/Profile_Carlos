@@ -37,11 +37,14 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.91.2'
+          hugo-version: '0.119.0'
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: |
+          hugo mod init github.com/ccarbajal16/Profile_Carlos
+          hugo mod get -u
+          hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

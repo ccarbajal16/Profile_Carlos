@@ -1,7 +1,17 @@
 baseURL = "https://ccarbajal16.github.io/Profile_Carlos/"
 languageCode = "en-us"
 title = "Carlos Carbajal | Professional Profile"
-theme = "academic"
+
+# Load the Hugo Blox Builder modules
+[module]
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal"
+  [[module.imports]]
+    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
