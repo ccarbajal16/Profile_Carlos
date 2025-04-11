@@ -1,0 +1,79 @@
+/* Custom CSS for Professional Profile */
+
+/* Enhance section headers */
+.section-heading h1 {
+  font-weight: 700;
+  border-bottom: 3px solid #2962ff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Improve card styling */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Enhance project cards */
+.project-card {
+  height: 100%;
+}
+
+.project-card .card-text {
+  font-size: 0.9rem;
+}
+
+/* Improve button styling */
+.btn-primary {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Enhance profile section */
+#profile .portrait-title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#profile .portrait-title h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Improve social icons */
+.network-icon li {
+  margin-right: 10px;
+}
+
+.network-icon a {
+  transition: transform 0.3s ease;
+}
+
+.network-icon a:hover {
+  transform: scale(1.2);
+}
+
+/* Enhance skills section */
+.featurette-icon {
+  font-size: 3rem !important;
+  color: #2962ff;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  #profile .portrait-title h2 {
+    font-size: 2rem;
+  }
+  
+  #profile .portrait-title h3 {
+    font-size: 1.2rem;
+  }
+}

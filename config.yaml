@@ -1,0 +1,13 @@
+baseURL: "https://ccarbajal16.github.io/Profile_Carlos/"
+languageCode: "en-us"
+title: "Carlos Carbajal | Professional Profile"
+theme: "ananke"
+
+params:
+  description: "Professional profile of Carlos Carbajal"
+  favicon: ""
+  site_logo: ""
+  github: "https://github.com/ccarbajal16"
+  linkedin: "https://linkedin.com/in/your-profile"
+  background_color_class: "bg-black"
+  recent_posts_number: 3
