@@ -1,6 +1,6 @@
 # Carlos Carbajal Professional Profile
 
-This is a personal professional profile website built with [Hugo](https://gohugo.io/) and deployed using GitHub Actions.
+This is a personal professional profile website built with [Hugo](https://gohugo.io/) and deployed using GitHub Actions. This site showcases my professional experience and projects.
 
 ## Overview
 
