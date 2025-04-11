@@ -40,11 +40,12 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
-      - name: Build
+      - name: Setup Theme
         run: |
-          hugo mod init github.com/ccarbajal16/Profile_Carlos
-          hugo mod get -u
-          hugo --minify
+          git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+
+      - name: Build
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
